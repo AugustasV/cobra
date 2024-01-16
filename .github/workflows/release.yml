@@ -10,7 +10,9 @@ permissions:
   contents: write
   packages: write
   # issues: write
-
+# .goreleaser.yaml
+builds:
+- skip: true
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
